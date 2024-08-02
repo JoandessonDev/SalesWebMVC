@@ -15,11 +15,13 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult Index()
         {
+            ViewData["message"] = "Seja bem vindo a Minha primeira aplicação Asp.NET";
             return View();
         }
 
         public IActionResult Privacy()
         {
+            ViewData["Title"] = "Jesus é o Caminho";
             return View();
         }
 
